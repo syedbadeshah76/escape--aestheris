@@ -1,0 +1,28 @@
+
+body {
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Courier New', monospace;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#scene-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.choice {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #222;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+.choice:hover {
+  background-color: #444;
+}
